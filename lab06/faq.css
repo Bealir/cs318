@@ -1,0 +1,14 @@
+body {
+    background-color: skyblue;
+}
+
+h3 {
+    font-size: 24pt;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 1px 1px 1px #000000;
+}
+
+.answer {
+    font-family: 'Ubuntu', sans-serif;
+}
