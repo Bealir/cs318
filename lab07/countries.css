@@ -18,13 +18,13 @@ body{
 
 
 #newzealand{
-    background-image: url("newzealandflag.png"),url("newzealand.png"); 
+    background-image: url("newzealand.flag.png"),url("newzealand.map.png"); 
     background-position: top right, top left;
     background-repeat: no-repeat; 
     background-size:  100px 50px,300px 300px;
 }
 #australia{
-    background-image: url("australiaflag.png"),url("austrailia.png"); 
+    background-image: url("australia.flag.png"),url("austrailia.map.png"); 
     background-position: top right, top left;
     background-repeat: no-repeat; 
     background-size:  100px 50px,300px 300px;
@@ -32,14 +32,14 @@ body{
 
 }
 #madagascar{
-    background-image: url("madagascarflag.png"),url("madagascar.png"); 
+    background-image: url("madagascar.flag.png"),url("madagascar.map.png"); 
     background-position: top right, top left;
     background-repeat: no-repeat; 
     background-size:  100px 50px,300px 300px;
 
 }
 #iceland{
-    background-image: url("icelandflag.png"),url("iceland.png"); 
+    background-image: url("iceland.flag.png"),url("iceland.map.png"); 
     background-position: top right, top left;
     background-repeat: no-repeat; 
     background-size:  100px 50px,300px 300px;
