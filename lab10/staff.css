@@ -1,0 +1,45 @@
+.photo {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-size: 100%;
+    margin: 30px;
+    box-shadow: 10px 10px 10px gray;
+    position: relative;
+}
+
+#joe {
+    background-image: url("https://www.uwec.edu/images/Hupy_Joe_2016.jpg");
+}
+
+#martin {
+    background-image: url("https://www.uwec.edu/images/Goettl_Martin_2016.jpg");
+}
+
+#ryan {
+    background-image: url("https://www.uwec.edu/images/Weichelt_Ryan_2016.jpg");
+}
+
+#cyril {
+    background-image: url("https://www.uwec.edu/images/Wilson_Cyril_2016.jpg");
+}
+
+.photo:hover{
+    box-shadow: 10px 10px 10px;
+    top: 10px;
+    left: 10px;
+}
+
+.name {
+    font-family: sans-serif;
+    font-size: 20px;
+    color: yellow;
+    text-shadow: 2px 2px black;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin-bottom: -15px;
+    margin-left: 40px;
+}
