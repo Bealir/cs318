@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(168, 226, 255);
+}
+
+ul{
+    list-style-type: none;
+    display: inline-block;
+}
+
+header{
+    background-color: rgb(165, 167, 168);
+    margin: 0px;
+    padding: 15px;
+    text-align: center;
+}
+
+nav{
+    background-color: rgb(168, 226, 255);
+    margin: 0px;
+    padding: 15px;
+    float: left;
+    width: 100%;
+}
+
+main{
+    background-color: rgb(228, 255, 184);
+    margin: 0px;
+    padding: 15px;
+    display: inline-block;
+}
+
+aside{
+    padding: 5px;
+    font-size: 20px;
+    background-color:rgb(168, 226, 255);
+    width: 100%;
+}
+
+.poem{
+    white-space: pre-wrap;
+}
+
+@media (min-width: 600px) {
+
+    nav{
+        width: 300px;
+    }
+
+    main{
+        width: calc(100% - 300px);
+    }
+
+    ul{
+        display: block;
+    }
+
+    aside{
+        float: right;
+        width: 300px;
+    }
+
+}
+
