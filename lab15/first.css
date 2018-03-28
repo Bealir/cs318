@@ -1,0 +1,72 @@
+body{
+    width: 100%;
+}
+
+#firstim{
+    float: left;
+    padding: 15px;
+}
+
+#secondim{
+    float: right;
+    padding: 15px;
+}
+
+#thirdim{
+    float: left;
+    padding: 15px;
+}
+
+#fourthim{
+    float: right;
+    padding: 15px;
+}
+
+#p3{
+    clear:left;
+}
+
+#bubble1{
+    position: absolute;
+    top: 270px;
+    left:400px;
+    width: 80px;
+    background-color: rgb(121, 95, 61);
+    opacity: .82;
+    border-radius: 10px;
+    color: rgb(236, 219, 119)
+}
+
+#bubble2{
+    position: absolute;
+    top: 650px;
+    left:690px;
+    width: 80px;
+    background-color: rgb(121, 95, 61);
+    opacity: .82;
+    border-radius: 10px;
+    color: rgb(236, 219, 119)
+}
+
+#bubble3{
+    position: absolute;
+    top: 1165px;
+    left:300px;
+    width: 80px;
+    background-color: rgb(121, 95, 61);
+    opacity: .82;
+    border-radius: 10px;
+    color: rgb(236, 219, 119)
+}
+
+#bubble4{
+    position: absolute;
+    top: 1450px;
+    left:690px;
+    width: 80px;
+    background-color: rgb(121, 95, 61);
+    opacity: .82;
+    border-radius: 10px;
+    color: rgb(236, 219, 119)
+}
+
