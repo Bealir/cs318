@@ -28,7 +28,7 @@ body{
 
 #bubble1{
     position: absolute;
-    top: 270px;
+    top: -2px;
     left:400px;
     width: 80px;
     background-color: rgb(121, 95, 61);
@@ -39,8 +39,8 @@ body{
 
 #bubble2{
     position: absolute;
-    top: 650px;
-    left:690px;
+    top: -2px;
+    right:50px;
     width: 80px;
     background-color: rgb(121, 95, 61);
     opacity: .82;
@@ -50,7 +50,7 @@ body{
 
 #bubble3{
     position: absolute;
-    top: 1165px;
+    top: -2px;
     left:300px;
     width: 80px;
     background-color: rgb(121, 95, 61);
@@ -61,12 +61,16 @@ body{
 
 #bubble4{
     position: absolute;
-    top: 1450px;
-    left:690px;
+    top: -2px;
+    right:50px;
     width: 80px;
     background-color: rgb(121, 95, 61);
     opacity: .82;
     border-radius: 10px;
     color: rgb(236, 219, 119)
+}
+
+.relative{
+    position: relative;
 }
 
