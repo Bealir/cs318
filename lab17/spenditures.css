@@ -1,0 +1,118 @@
+* {
+    font-family: sans-serif;
+}
+
+header{
+    background-color: rgb(138, 29, 29);
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 5px;
+    position: relative;
+}
+
+div ul{
+    display: inline-block;
+    padding-left: 0px;
+    margin-left: 0px;
+    width: 100%;
+    box-shadow: 3px 3px 10px black;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+div li:not(:last-child){
+    border-bottom: 1px solid white;
+}
+
+div li{
+    background-color: rgb(78, 78, 78);
+    width: 100%;
+}
+
+div li:hover{
+    background-color: rgb(167, 167, 167);
+}
+
+nav ul{
+    margin-top: 0px;
+    border-top: 1px solid white;
+    list-style-type: none;
+    padding-left: 0px;
+    background-color: rgb(14, 14, 167);
+}
+
+.menu:hover div{
+    display: block;
+}
+
+.menu:hover{
+    cursor: pointer;
+    background-color: rgb(78, 78, 78);
+}
+
+li div{
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    left: 0px;
+    display: none;
+}
+
+.menu{
+    display: inline-block;
+    background-color: rgb(14, 14, 167);
+    color: white;
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    padding: 10px;
+    position: relative;
+    margin-left: 0px;
+}
+
+tr:nth-child(even){
+    background-color: rgb(189, 192, 196);
+}
+
+table{
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+
+td:last-child{
+    text-align: right;
+}
+th:first-child{
+    text-align: left;
+}
+
+header div{
+    display: none;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 100%;
+    padding: 5px;
+    border-left: 1px solid white;
+    font-size: 40px;
+    background-color: rgb(78, 78, 78);
+}
+
+@media (max-width: 600px){
+    body{
+        width: 600px;
+    }
+
+    nav{
+        display: none;
+    }
+
+    header div{
+        display: block;
+    }
+
+}
