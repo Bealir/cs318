@@ -1,4 +1,4 @@
-.tabs{
+.tab{
     display: inline-block;
     background-color: aquamarine;
     width: 600px;
@@ -7,11 +7,11 @@
     outline: none;
 }
 
-.tabs:hover{
+.tab:hover{
     cursor: pointer;
 }
 
-.tabs:focus{
+.tab:focus{
     background-color: blue;
 }
 
