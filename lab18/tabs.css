@@ -1,0 +1,47 @@
+.tabs{
+    display: inline-block;
+    background-color: aquamarine;
+    width: 600px;
+    padding: 15px;
+    border-radius: 10px 10px 0px 0px;
+    outline: none;
+}
+
+.tabs:hover{
+    cursor: pointer;
+}
+
+.tabs:focus{
+    background-color: blue;
+}
+
+#panel0{
+    background-color: aquamarine;
+    display: block;
+
+}
+
+.panel{
+    background-color: blue;
+    position: absolute;
+    left: 0px;
+    top: 10px;
+    display: none;
+}
+
+#parent{
+    position: relative;
+    display: inline-block;
+}
+
+#a:focus #panel1 {
+    display: block;
+  }
+
+#b:focus #panel2 {
+    display: block;
+  }
+
+#c:focus #panel3 {
+    display: block;
+  }
