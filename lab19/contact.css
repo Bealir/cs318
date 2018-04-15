@@ -1,0 +1,44 @@
+
+#content{
+    background-color: lightgray;
+    width:380px;
+    border: 2px solid lightgrey;
+    border-radius: 10px; 
+}
+
+label{
+    display:block;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+#subject{
+    width: 270px;
+}
+
+#submit{
+    right:25px; 
+    padding: 10px;
+    background-color: blue;
+    color:white;
+    border: none;
+}
+
+#name{
+    width: 270px;
+}
+
+#email{
+    width: 270px;
+}
+
+textarea{
+    margin: 0 auto;  
+    width:100%;
+}
+
+form{
+    margin: 0 auto; 
+    text-align: right;
+    padding:15px;
+}
