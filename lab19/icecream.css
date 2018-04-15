@@ -1,0 +1,70 @@
+
+#content{
+    background-color: lightblue;
+    border: 2px solid lightblue;
+    width:500px;
+    border-radius: 10px; 
+}
+
+label{
+    display:block;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+
+#order{
+    background-color: white;
+    color:black;
+    border: none;
+    right:25px; 
+    padding: 10px;
+    border-radius: 5px; 
+}
+
+#in{
+    width: 200px;
+}
+
+#who{
+    width: 200px;
+}
+
+#what{
+    width: 200px;
+}
+
+#sprinkles{
+    width: 200px;
+}
+
+#messy{
+    width: 200px;
+}
+
+#inid{
+    width: 200px;
+}
+
+#whoid{
+    width: 200px;
+}
+
+#whatid{
+    width: 200px;
+}
+
+#sprinklesid{
+    width: 200px;
+}
+
+#messyid{
+    width: 200px;
+}
+
+
+form{
+    margin: 0 auto; 
+    text-align: left;
+    padding:15px;
+}
