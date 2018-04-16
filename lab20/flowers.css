@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+
+img{
+    width: 129px;
+    height: 129px;
+    margin: 10px;
+    float: left;
+    position: relative;
+}
+
+img:nth-child(4n+1){
+    clear: both;
+}
+
+.flowerbed:hover img{
+    opacity: .1;
+    z-index: 0;
+  }
+
+.flowerbed > img:hover{
+    opacity: 1;
+    transform: scaleX(1.5) scaleY(1.5) rotate(180deg);
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    z-index: 1;
+  }
+
+  .flowerbed{
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%)
+  }
+
+  p{
+      position: fixed;
+      right: 100px;
+      bottom: 10px;
+  }
