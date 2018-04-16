@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.tab{
+    display: inline-block;
+    background-color: aquamarine;
+    width: 150px;
+    padding: 15px;
+    border-radius: 10px 10px 0px 0px;
+    outline: none;
+}
+
+.tab:hover{
+    cursor: pointer;
+}
+
+.tab:focus{
+    background-color: blue;
+}
+
+#panel0{
+    background-color: aquamarine;
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 48px;
+}
+
+#panel1{
+    background-color: blue;
+    position: absolute;
+    left: 0px;
+    top: 48px;
+    display: none;
+}
+
+#panel2{
+    background-color: blue;
+    position: absolute;
+    left: 0px;
+    top: 48px;
+    display: none;
+}
+
+#panel3{
+    background-color: blue;
+    position: absolute;
+    left: 0px;
+    top: 48px;
+    display: none;
+}
+
+.panel{
+    background-color: blue;
+    position: absolute;
+    left: 0px;
+    top: 48px;
+    width: 458px;
+}
+
+#parent{
+    position: relative;
+    display: inline-block;
+}
+
+#a:focus ~ #panel1 {
+    display: block;
+  }
+
+#b:focus ~ #panel2 {
+    display: block;
+  }
+
+#c:focus ~ #panel3 {
+    display: block;
+  }
