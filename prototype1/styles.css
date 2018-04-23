@@ -1,0 +1,155 @@
+body{
+	background-color: rgb(110, 110, 110);
+	color:#000000;
+	font-family: Veranda, arial, sans-serif;
+}
+ 
+nav{
+   font-weight: bold;
+   text-align: center;
+   margin-right: auto;
+   margin-left: auto;
+   padding: 10px;
+   float: left;
+   width: 160px;
+   display: inline;
+   background-color: white;
+}
+li a{
+	text-decoration: none;
+}
+li a:link{
+	color: #795240;
+}
+li a:visited{
+	color: #a58366;
+}
+li a:hover{
+	color: #f5f5dc;
+}
+a{
+	text-decoration:none;
+}
+a:link{
+	color:#795240;
+}
+a:visited{
+	color:#a58366;
+}
+a:hover{
+	color:#f5f5dc;
+}
+nav ul{
+	list-style-type: none;
+	padding-left: 0;
+	font-size: 1.2em;
+}
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding:0;
+}
+li{
+	display: inline;
+	padding: 10px;
+	text-decoration: none;
+}
+
+#left{
+	float: center;
+	width: 75%;
+	height: 450px;
+	margin-top: 0;
+	padding: 0;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	color: white;
+	line-height: 25px;
+}
+
+
+#blurb{
+	color: white;
+	width: 75%;
+	margin-right: auto;
+	margin-left: auto;
+	line-height: 25px;
+	padding: 25px;
+}
+
+#story{
+	clear: both;
+}
+#blurbimg{
+	display: block;
+    margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	max-width: 1200px;
+	height: auto;
+}
+
+#aboutimg{
+	float: left;
+	width: 100%;
+	max-width: 920px;
+	height: auto;
+}
+
+#blurbaboutimg{
+	float: right;
+	width: 100%;
+	max-width: 863px;
+	height: auto;
+	clear: both;
+}
+
+#servicesimg{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	max-width: 920px;
+	height: auto;
+	clear: both;
+}
+
+h1{
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+}
+
+#story{
+	text-align: center;
+}
+
+footer{
+	clear: both;
+}
+
+#realestate{
+	color: white;
+	width: 75%;
+	margin-right: auto;
+	margin-left: auto;
+	line-height: 25px;
+	padding: 25px;
+	text-align: left;
+	clear: both;
+	display: block;
+}
+
+#event{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+	max-width: 863px;
+	color: white;
+}
+
+#eventheader{
+	color: white;
+}
