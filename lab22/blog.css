@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    color: white;
+}
+
+#middle{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+}
+
+footer{
+    margin: 10px;
+    text-align: center;
+}
+
+body{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    flex: 1;
+}
+
+#left{
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+}
+
+#right{
+    background-color: rgb(104, 104, 104);
+    padding: 10px;
+    margin: 20px;
+    height: 550px;
+    width: 200px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+main{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+#whitehouse{
+    border-radius: 10px;
+}
+
+@media only screen and  (max-width: 600px){
+    #middle{
+        flex-direction: column;
+    }
+
+    #right{
+        width: auto;
+    }
+}
