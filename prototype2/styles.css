@@ -10,7 +10,7 @@ body{
 }
 
 #top{
-	background-color: rgb(110, 110, 110);
+	background-color: rgb(0, 0, 0);
 	position: sticky;
 	top: 0;
 }
@@ -78,7 +78,7 @@ li{
 
 #welcome{
 	float: center;
-	height: 400px;
+	height: 4 00px;
 	margin-top: 0;
 	padding: 0;
 	text-align: center;
