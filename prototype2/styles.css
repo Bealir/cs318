@@ -3,7 +3,10 @@ body{
 	background-color: rgb(110, 110, 110);
 	color:#000000;
 	font-family: Veranda, arial, sans-serif;
-	position: absolute;
+	position: relative;
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #top{
@@ -65,17 +68,23 @@ li{
 
 #left{
 	float: center;
-	width: 75%;
-	height: 450px;
+	height: 1500px;
 	margin-top: 0;
 	padding: 0;
 	text-align: center;
-	margin-right: auto;
-	margin-left: auto;
 	color: white;
 	line-height: 25px;
 }
 
+#welcome{
+	float: center;
+	height: 400px;
+	margin-top: 0;
+	padding: 0;
+	text-align: center;
+	color: white;
+	line-height: 25px;
+}
 
 #blurb{
 	color: white;
@@ -84,6 +93,7 @@ li{
 	margin-left: auto;
 	line-height: 25px;
 	padding: 25px;
+	clear: both;
 }
 
 #story{
@@ -99,14 +109,14 @@ li{
 }
 
 #aboutimg{
-	float: left;
+	float: center;
 	width: 100%;
 	max-width: 920px;
 	height: auto;
 }
 
 #blurbaboutimg{
-	float: right;
+	float: center;
 	width: 100%;
 	max-width: 863px;
 	height: auto;
