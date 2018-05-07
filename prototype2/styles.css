@@ -108,8 +108,9 @@ li{
 	margin-right: auto;
 	width: 100%;
 	max-width: 1500px;
-	height: auto;
+	height: 300px;
 	padding: 15px;
+	object-fit: cover;
 }
 
 #blurbimg{
@@ -257,62 +258,20 @@ form{
     padding:15px;
 }
 
-
-.banner{
-	position: sticky;
-}
-
-#bannertexthome{
-	position: absolute;
-	top: 50%;
-	left: 50%;
+#bannertext{
+	text-align: center;
 	color: white;
 	text-decoration: underline overline white;
-	font-size: 100%;
-}
-
-#bannertextabout{
-	position: absolute;
-	top: 7.25%;
-	left: 32%;
-	color: white;
-	text-decoration: underline overline white;
-	font-size: 50px;
-}
-
-#bannertextservices{
-	position: absolute;
-	top: 11.2%;
-	left: 33%;
-	color: white;
-	text-decoration: underline overline white;
-	font-size: 50px;
-}
-
-#bannertextcontact{
-	position: absolute;
-	top: 22%;
-	left: 34%;
-	color: white;
-	text-decoration: underline overline white;
-	font-size: 50px;
-}
-
-#bannertextport{
-	position: relative;
-	top: 38.5%;
-	left: 34%;
-	color: white;
-	text-decoration: underline overline white;
-	font-size: 50px;
+	font-size: 35px;
+	margin-bottom: -10px;
 }
 
 #panel{
-    position: fixed;
-    top: 50px;
+    position: relative;
+    /* top: 50px;
     bottom: 50px;
     left: 50px;
-    right: 50px;
+	right: 50px; */
 }
 
 #picture{
@@ -322,23 +281,23 @@ form{
 }
 
 .arrow{
-    position: fixed;
-    top: 50%;
+	position: absolute;
+	top: 72%;
     width: 40px;
     height: 40px;
-    cursor: pointer;
+	cursor: pointer;
 }
 
-#left{
-left: 5px;
+#left{ 
+	left: -45px;
 }
 
 #right{
-right: 5px;
+	right: -45px;
 }
 
 #slideshow{
-	position: absolute;
+	/* position: relative; */
 }
 
 @media only screen and  (max-width: 600px){
