@@ -1,0 +1,315 @@
+
+body{
+	background-color: rgb(19, 19, 19);
+	color:#000000;
+	font-family: arial, sans-serif;
+	position: relative;
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#top{
+	background-color: rgb(19, 19, 19);
+	position: sticky;
+	top: 0;
+	padding: 10px;
+	width: 100%;
+	z-index: 1;
+}
+
+nav{
+   font-weight: bold;
+   text-align: center;
+   margin-right: auto;
+   margin-left: auto;
+   padding: 10px;
+   float: left;
+   width: 160px;
+   display: inline;
+   background-color: white;
+}
+li a{
+	text-decoration: none;
+	color: white;
+}
+li a:link{
+	color: red;
+}
+
+li a:hover{
+	color: red;
+}
+a{
+	text-decoration:none;
+}
+a:link{
+	color:white;
+}
+
+a:hover{
+	color:red;
+}
+nav ul{
+	list-style-type: none;
+	padding-left: 0;
+	font-size: 1.2em;
+}
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding:0;
+}
+li{
+	display: inline;
+	padding: 10px;
+	text-decoration: none;
+	border: 1px solid white;
+
+}
+
+#leftserv{
+	float: center;
+	/* height: 1500px; */
+	margin-top: 0;
+	padding: 0;
+	text-align: center;
+	color: white;
+	line-height: 25px;
+}
+
+#welcome{
+	float: center;
+	height: 4 00px;
+	margin-top: 0;
+	padding: 0;
+	text-align: center;
+	color: white;
+	line-height: 25px;
+}
+
+#blurb{
+	color: white;
+	width: 75%;
+	margin-right: auto;
+	margin-left: auto;
+	line-height: 25px;
+	padding: 25px;
+	clear: both;
+}
+
+#story{
+	clear: both;
+}
+
+#bannerimg{
+	display: block;
+    margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	max-width: 1500px;
+	height: 300px;
+	padding: 15px;
+	object-fit: cover;
+}
+
+#blurbimg{
+	display: block;
+    margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	max-width: 1200px;
+	height: auto;
+}
+
+#welcomeimg{
+	display: block;
+    margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	max-width: 480px;
+	height: auto;
+}
+
+#aboutimg{
+	float: center;
+	width: 100%;
+	max-width: 920px;
+	height: auto;
+}
+
+#blurbaboutimg{
+	float: center;
+	width: 100%;
+	max-width: 863px;
+	height: auto;
+	clear: both;
+}
+
+#servicesimg{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	max-width: 920px;
+	height: auto;
+	clear: both;
+}
+
+#eventimg{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	max-width: 863px;
+	height: auto;
+	clear: both;
+}
+
+h1{
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+}
+
+#story{
+	text-align: center;
+}
+
+footer{
+	clear: both;
+}
+
+#realestate{
+	color: white;
+	width: 75%;
+	margin-right: auto;
+	margin-left: auto;
+	line-height: 25px;
+	padding: 25px;
+	text-align: left;
+	clear: both;
+	display: block;
+}
+
+#event{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+	max-width: 863px;
+	color: white;
+}
+
+#eventheader{
+	color: white;
+}
+
+title{
+	background-color: black
+}
+
+
+#content{
+    background-color: rgb(19, 19, 19);
+    border: 2px solid rgb(19, 19, 19);
+    width:380px;
+	border-radius: 10px; 
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	color: white;
+}
+
+label{
+    display:block;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+#subject{
+    width: 250px;
+}
+
+#submit{
+    background-color: blue;
+    color:white;
+    border: none;
+    right:25px; 
+    padding: 10px;
+}
+
+#name{
+    width: 250px;
+}
+
+#email{
+    width: 250px;
+}
+
+textarea{
+    width:100%;
+    margin: 0 auto;  
+}
+
+form{
+    margin: 0 auto; 
+    text-align: right;
+    padding:15px;
+}
+
+#bannertext{
+	text-align: center;
+	color: white;
+	text-decoration: underline overline white;
+	font-size: 35px;
+	margin-bottom: -10px;
+}
+
+#panel{
+	position: relative;
+	text-align: center;
+    /* top: 50px;
+    bottom: 50px;
+    left: 50px;
+	right: 50px; */
+}
+
+#picture{
+	width: 100%;
+	max-width: 640px;
+    height: auto;
+	object-fit: contain;
+	margin-top: 15px;
+}
+
+.arrow{
+	display: block;
+	margin-left: auto;
+	margin-right:auto;
+    width: 40px;
+    height: 40px;
+	cursor: pointer;
+	padding:15px;
+}
+
+#left{ 
+	float: left;
+}
+
+#right{
+	float: right;
+}
+
+#slideshow{
+	/* position: relative; */
+}
+
+@media only screen and  (max-width: 600px){
+	li{
+		display: inline;
+		padding: 10px;
+		text-decoration: none;
+		border: none;
+	}
+}
